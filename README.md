@@ -1,1 +1,2 @@
 Pathfinding
+![Diagram](Diagram.png)
