@@ -1,9 +1,9 @@
 public class Edge implements Comparable<Edge> {
     private Node destination;
     private Node source;
-    private int cost;
+    public double cost;
 
-    public Edge(Node source, Node destination, int cost) {
+    public Edge(Node source, Node destination, double cost) {
         this.source = source;
         this.destination = destination;
         this.cost = cost;
@@ -26,11 +26,11 @@ public class Edge implements Comparable<Edge> {
         this.source = source;
     }
 
-    public int getCost() {
+    public double getCost() {
         return cost;
     }
 
-    public void setCost(int cost) {
+    public void setCost(double cost) {
         this.cost = cost;
     }
 
