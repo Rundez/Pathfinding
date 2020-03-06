@@ -65,7 +65,7 @@ class Graph {
                 System.out.println("Node " + node.name + " has no connection");
                 continue;
             }
-            System.out.println("Node" + node.name + " has connections to: ");
+            System.out.println("Node " + node.name + " has connections to: ");
             for (Edge edge: edges){
                 System.out.println(edge.getDestination().name + " ( " + edge.getCost() + " ) ");
             }

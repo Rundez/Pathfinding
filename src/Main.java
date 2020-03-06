@@ -7,28 +7,64 @@ public class Main {
     public static void main(String[] args) {
 
         Graph graph = new Graph(true);
-        Node zero = new Node(0,"0");
-        Node one = new Node(1,"1");
-        Node two = new Node(2,"2");
-        Node three = new Node(3,"3");
-        Node four = new Node(4,"4");
-        Node five = new Node(5,"5");
-        Node six = new Node(6,"6");
+        Node A = new Node(0,"A");
+        Node B = new Node(1,"B");
+        Node C = new Node(2,"C");
+        Node D = new Node(3,"D");
+        Node E = new Node(4,"E");
+        Node F = new Node(5,"F");
 
-        graph.addEdge(zero,one,8);
-        graph.addEdge(zero,two,11);
-        graph.addEdge(one,three,3);
-        graph.addEdge(one,four,8);
-        graph.addEdge(one,two,7);
-        graph.addEdge(two,four,9);
-        graph.addEdge(three,four,5);
-        graph.addEdge(three,five,2);
-        graph.addEdge(four,six,6);
-        graph.addEdge(five,four,1);
-        graph.addEdge(five,six,8);
+        //Nodene fra A -> til BCDEF
+        graph.addEdge(A,B,10);
+        graph.addEdge(A,C,5);
+        graph.addEdge(A,D,9999);
+        graph.addEdge(A,E,3);
+        graph.addEdge(A,F,12);
 
-        graph.Dijkstra(zero,six);
+        //Nodene fra B -> til ACDEF
+        graph.addEdge(B,A,10);
+        graph.addEdge(B,C,17);
+        graph.addEdge(B,D,9);
+        graph.addEdge(B,E,17);
+        graph.addEdge(B,F,12);
 
+        //Nodene fra C -> til ABDEF
+        graph.addEdge(C,A,5);
+        graph.addEdge(C,B,17);
+        graph.addEdge(C,D,35);
+        graph.addEdge(C,E,3);
+        graph.addEdge(C,F,12);
+
+        //Nodene fra D -> til ABCEF
+        graph.addEdge(D,A,9999);
+        graph.addEdge(D,B,9);
+        graph.addEdge(D,C,35);
+        graph.addEdge(D,E,999);
+        graph.addEdge(D,F,12);
+
+        //Nodene fra E -> til ABCDF
+        graph.addEdge(E,A,3);
+        graph.addEdge(E,B,17);
+        graph.addEdge(E,C,3);
+        graph.addEdge(E,D,999);
+        graph.addEdge(E,F,12);
+
+        //Nodene fra F -> tl ABCDE
+        graph.addEdge(F,A,12);
+        graph.addEdge(F,B,12);
+        graph.addEdge(F,C,12);
+        graph.addEdge(F,D,12);
+        graph.addEdge(F,E,12);
+
+        graph.printEdges();
+        graph.Dijkstra(D,E);
+        graph.resetNodesVisited();
+        graph.Dijkstra(C,F);
+        graph.resetNodesVisited();
+        graph.Dijkstra(A,E);
+        graph.resetNodesVisited();
+        graph.Dijkstra(D,A);
+        graph.resetNodesVisited();
 
     }
 }
