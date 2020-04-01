@@ -57,13 +57,35 @@ public class Main {
         graph.addEdge(F,E,12);
 
         graph.printEdges();
-        graph.Dijkstra(D,E);
+        graph.Dijkstra(A,B);
         graph.resetNodesVisited();
-        graph.Dijkstra(C,F);
+        graph.Dijkstra(A,C);
         graph.resetNodesVisited();
         graph.Dijkstra(A,E);
         graph.resetNodesVisited();
-        graph.Dijkstra(D,A);
+        graph.Dijkstra(A,F);
+        graph.resetNodesVisited();
+
+        graph.Dijkstra(B,C);
+        graph.resetNodesVisited();
+        graph.Dijkstra(B,D);
+        graph.resetNodesVisited();
+        graph.Dijkstra(B,E);
+        graph.resetNodesVisited();
+        graph.Dijkstra(B,F);
+        graph.resetNodesVisited();
+
+
+        graph.Dijkstra(C,D);
+        graph.resetNodesVisited();
+        graph.Dijkstra(C,E);
+        graph.resetNodesVisited();
+        graph.Dijkstra(C,F);
+        graph.resetNodesVisited();
+
+        graph.Dijkstra(D,F);
+        graph.resetNodesVisited();
+        graph.Dijkstra(E,F);
         graph.resetNodesVisited();
 
     }
