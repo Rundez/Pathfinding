@@ -19,7 +19,7 @@ public class Main {
         graph.addEdge(A,C,5);
         graph.addEdge(A,D,9999);
         graph.addEdge(A,E,3);
-        graph.addEdge(A,F,12);
+        graph.addEdge(A,F,120);
 
         //Nodene fra B -> til ACDEF
         graph.addEdge(B,A,10);
@@ -36,18 +36,18 @@ public class Main {
         graph.addEdge(C,F,12);
 
         //Nodene fra D -> til ABCEF
-        graph.addEdge(D,A,9999);
-        graph.addEdge(D,B,9);
-        graph.addEdge(D,C,35);
-        graph.addEdge(D,E,999);
-        graph.addEdge(D,F,12);
+       graph.addEdge(D,A,9999);
+       graph.addEdge(D,B,9);
+       graph.addEdge(D,C,35);
+       graph.addEdge(D,E,999);
+       graph.addEdge(D,F,12);
 
         //Nodene fra E -> til ABCDF
         graph.addEdge(E,A,3);
         graph.addEdge(E,B,17);
         graph.addEdge(E,C,3);
         graph.addEdge(E,D,999);
-        graph.addEdge(E,F,12);
+        graph.addEdge(E,F,120);
 
         //Nodene fra F -> tl ABCDE
         graph.addEdge(F,A,12);
@@ -57,14 +57,7 @@ public class Main {
         graph.addEdge(F,E,12);
 
         graph.printEdges();
-        graph.Dijkstra(D,E);
-        graph.resetNodesVisited();
-        graph.Dijkstra(C,F);
-        graph.resetNodesVisited();
-        graph.Dijkstra(A,E);
-        graph.resetNodesVisited();
-        graph.Dijkstra(D,A);
-        graph.resetNodesVisited();
+        graph.Dijkstra(A,D);
 
     }
 }
