@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Graph graph = new Graph(true);
+      /*  Graph graph = new Graph(true);
         Node A = new Node(0,"A");
         Node B = new Node(1,"B");
         Node C = new Node(2,"C");
@@ -58,6 +58,18 @@ public class Main {
 
         graph.printEdges();
         graph.Dijkstra(A,D);
+*/
+        Primgraph t = new Primgraph();
+        int graphs[][] = new int[][] {
+                { 0, 10, 5, 9999, 3, 12},   //A
+                { 10, 0, 17, 9, 17, 12},    //B
+                { 5, 17, 0, 35, 3 , 12},    //C
+                { 9999, 9, 35, 0, 999 , 12},//D
+                { 3, 17, 3, 999, 0, 12},    //E
+                { 12, 12, 12, 12, 12 , 12}, //F
+        };
+
+        t.primMST(graphs);
 
     }
 }

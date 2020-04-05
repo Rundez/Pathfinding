@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="204b0d30-130d-4a36-8672-28c99c19e1dd" name="Default Changelist" comment="">
+    <list default="true" id="204b0d30-130d-4a36-8672-28c99c19e1dd" name="Default Changelist" comment="Fikset en Primgraph">
+      <change afterPath="$PROJECT_DIR$/src/Djikstra.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Dijkstras/Edge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Dijkstras/Graph.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Dijkstras/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Dijkstras/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PrimGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrimGraph.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,9 +40,30 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Dijkstras" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Prim" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Prim" />
+      <module name="Dijkstras" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrimGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrimGraph" />
+      <module name="Dijkstras" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Primgraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Primgraph" />
       <module name="Dijkstras" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -54,6 +72,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Primgraph" />
+        <item itemvalue="Application.PrimGraph" />
+        <item itemvalue="Application.Prim" />
       </list>
     </recent_temporary>
   </component>
@@ -80,33 +101,91 @@
       <option name="presentableId" value="Default" />
       <updated>1583490626435</updated>
       <workItem from="1583490629070" duration="5640000" />
-      <workItem from="1583527347218" duration="6021000" />
+      <workItem from="1583527347218" duration="6307000" />
+      <workItem from="1583538445939" duration="389000" />
+      <workItem from="1583594359009" duration="800000" />
+      <workItem from="1583675249562" duration="1355000" />
+      <workItem from="1583873096222" duration="112000" />
+      <workItem from="1584664229299" duration="3000" />
+      <workItem from="1584734104535" duration="57000" />
+      <workItem from="1585640136656" duration="1205000" />
+      <workItem from="1585749539581" duration="8972000" />
+      <workItem from="1585781580123" duration="1253000" />
+      <workItem from="1585832327361" duration="1859000" />
+      <workItem from="1585888523704" duration="24000" />
     </task>
+    <task id="LOCAL−00001" summary="Oppdatert Dijkstra med oppgavens tall, pluss litt flere for å vise hvordan vi bruker de forskjellige kommandoene">
+      <created>1583535760649</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1583535760649</updated>
+    </task>
+    <task id="LOCAL−00002" summary="Fikset en Prim algoritme for å løse oppgave 1.">
+      <created>1585758965744</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1585758965744</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Oppdatert Dijkstra med oppgavens tall, pluss litt flere for å vise hvordan vi bruker de forskjellige kommandoene" />
+    <MESSAGE value="Fikset en Prim algoritme for å løse oppgave 1." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fikset en Prim algoritme for å løse oppgave 1." />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="612" y="102" key="CommitChangelistDialog2" timestamp="1583535741115">
+    <state x="756" y="405" width="408" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1585756078233">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="612" y="102" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1583535741115" />
-    <state width="1340" height="264" key="GridCell.Tab.0.bottom" timestamp="1583535741150">
+    <state x="756" y="405" width="408" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040/1920.7.1920.1040@0.0.1920.1040" timestamp="1585756078233" />
+    <state x="612" y="102" key="CommitChangelistDialog2" timestamp="1585758964163">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1583535741150" />
-    <state width="1340" height="264" key="GridCell.Tab.0.center" timestamp="1583535741150">
+    <state x="612" y="102" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1583535759150" />
+    <state x="612" y="102" key="CommitChangelistDialog2/0.0.1920.1040/1920.7.1920.1040@0.0.1920.1040" timestamp="1585758964163" />
+    <state width="1877" height="258" key="GridCell.Tab.0.bottom" timestamp="1585782834017">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="264" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1583535741150" />
-    <state width="1340" height="264" key="GridCell.Tab.0.left" timestamp="1583535741150">
+    <state width="1877" height="260" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1584107082730" />
+    <state width="1877" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1583680635225" />
+    <state width="1877" height="258" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.7.1920.1040@0.0.1920.1040" timestamp="1585782834017" />
+    <state width="1860" height="259" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.7.1920.1040@1920.7.1920.1040" timestamp="1585755901840" />
+    <state width="1877" height="258" key="GridCell.Tab.0.center" timestamp="1585782834017">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="264" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1583535741150" />
-    <state width="1340" height="264" key="GridCell.Tab.0.right" timestamp="1583535741150">
+    <state width="1877" height="260" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1584107082729" />
+    <state width="1877" height="261" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1583680635225" />
+    <state width="1877" height="258" key="GridCell.Tab.0.center/0.0.1920.1040/1920.7.1920.1040@0.0.1920.1040" timestamp="1585782834017" />
+    <state width="1860" height="259" key="GridCell.Tab.0.center/0.0.1920.1040/1920.7.1920.1040@1920.7.1920.1040" timestamp="1585755901840" />
+    <state width="1877" height="258" key="GridCell.Tab.0.left" timestamp="1585782834017">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="264" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1583535741150" />
+    <state width="1877" height="260" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1584107082729" />
+    <state width="1877" height="261" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1583680635224" />
+    <state width="1877" height="258" key="GridCell.Tab.0.left/0.0.1920.1040/1920.7.1920.1040@0.0.1920.1040" timestamp="1585782834017" />
+    <state width="1860" height="259" key="GridCell.Tab.0.left/0.0.1920.1040/1920.7.1920.1040@1920.7.1920.1040" timestamp="1585755901840" />
+    <state width="1877" height="258" key="GridCell.Tab.0.right" timestamp="1585782834017">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="260" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1584107082730" />
+    <state width="1877" height="261" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1583680635225" />
+    <state width="1877" height="258" key="GridCell.Tab.0.right/0.0.1920.1040/1920.7.1920.1040@0.0.1920.1040" timestamp="1585782834017" />
+    <state width="1860" height="259" key="GridCell.Tab.0.right/0.0.1920.1040/1920.7.1920.1040@1920.7.1920.1040" timestamp="1585755901840" />
+    <state x="579" y="241" key="Vcs.Push.Dialog.v2" timestamp="1583535787589">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="579" y="241" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1583535787589" />
+    <state x="1920" y="7" width="1631" height="1036" key="dock-window-1" timestamp="1585752102002">
+      <screen x="1920" y="7" width="1920" height="1040" />
+    </state>
+    <state x="1920" y="7" width="1631" height="1036" key="dock-window-1/0.0.1920.1040/1920.7.1920.1040@0.0.1920.1040" timestamp="1585752102002" />
+    <state x="342" y="222" key="new project wizard" timestamp="1585888546460">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="342" y="222" key="new project wizard/0.0.1920.1040/1920.7.1920.1040@0.0.1920.1040" timestamp="1585888546460" />
   </component>
 </project>
